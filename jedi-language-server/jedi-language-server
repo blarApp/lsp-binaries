@@ -1,0 +1,6 @@
+#!/Users/berrazuriz/Desktop/Blar/repositories/lsp-binaries/jedi-language-server/.venv/bin/python
+import sys
+from jedi_language_server.cli import cli
+
+if __name__ == '__main__':
+    sys.exit(cli())
